@@ -1,5 +1,5 @@
 # Prueba
 My first proyect
 
-##Descripción
+## Descripción
 Este es un repo de prueba
