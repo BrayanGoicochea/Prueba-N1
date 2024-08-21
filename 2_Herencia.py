@@ -1,4 +1,4 @@
-class Carrito_rojo:
+class Carrito_dojo:
     def __init__(self,marca,modelo,precio,Npasajeros):
         self.marca = marca
         self.modelo = modelo
@@ -14,7 +14,7 @@ class Carrito_rojo:
         """)
 
 
-class SUV(Carrito_rojo): #así se indica herencia
+class SUV(Carrito_dojo): #así se indica herencia
     def __init__(self,marca,modelo,precio,Npasajeros,tracción,Alta): #todos los atributos
         super().__init__(marca,modelo,precio,Npasajeros)
         self.traccion=tracción
